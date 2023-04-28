@@ -1,0 +1,28 @@
+{
+  "name": "babylon-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpu-hive/babylon-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpu-hive/babylon-demo/issues"
+  },
+  "homepage": "https://github.com/cpu-hive/babylon-demo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "rollup": "^3.21.0",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.4"
+  }
+}
